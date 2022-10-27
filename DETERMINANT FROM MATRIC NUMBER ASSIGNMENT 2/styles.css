@@ -1,0 +1,16 @@
+body {
+  padding: 40px 80px;
+  font-size: 90px;
+  font-family: "Montserrat", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.matrix {
+  display: grid;
+  width: 400px;
+  grid-template-columns: auto auto;
+  text-align: center;
+  border-right: 10px solid rgb(230, 41, 230);
+  border-left: 10px solid rgb(231, 42, 178);
+}
+.mat-element {
+  padding: 5px;
+}

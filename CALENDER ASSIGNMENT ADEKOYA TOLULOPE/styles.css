@@ -1,0 +1,87 @@
+.calendar-outside {
+  width: 400px;
+  background-color: rgb(33, 213, 229);
+  font-family: fantasy;
+  margin: 20% auto 4%;
+  padding: 10%;
+}
+.calendar {
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+}
+#importantdates {
+  text-align: right;
+  list-style-type: lower-latin;
+}
+#importantdates li {
+  padding: 10px;
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.calendar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 30px;
+  border-bottom: 22px;
+}
+
+.current-month {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.nav-btn {
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: rgb(53, 26, 161);
+  border: 2px solid transparent;
+}
+
+.weekdays-bar,
+.calendarbody {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 60px;
+}
+
+.weekdays-bar {
+  padding-top: 12px;
+}
+
+.calendar-days {
+  padding-bottom: 12px;
+}
+
+.week,
+[class$="-day"] {
+  width: 40px;
+  height: 40px;
+  color: rgb(71, 24, 223);
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.week {
+  color: rgb(232, 244, 248);
+  font-weight: 700;
+}
+
+.padding-day {
+  color: #77aeca;
+  user-select: none;
+}
+.nav-btn:hover {
+  background-color: rgba(39, 227, 227, 0.767);
+  border: 2px solid rgb(245, 33, 217);
+  cursor: pointer;
+}
